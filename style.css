@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cabecalho-esquerda {
+    width: 34%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: max-content;
+}
+
+.info p {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+
+.cabecalho-direita {
+
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho-direita p {
+    margin: 0;
+    font-size: 14px;
+
+}
+
+.parte-azul {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 5vh;
+    background-color: blue;
+    color: white;
+}
+
+.header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    box-shadow: 0px 2.5px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.header a {
+    color:black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: blue;
+    transform: scale(102.5%);
+    transition: all 100ms ease-in;
+}
+
+.menu{
+    display: flex;
+    width: 35%;
+    justify-content: space-around;
+}
+
+.imagem {
+    width: 35%;
+    height: 60%;
+    border-radius: 20px;
+}
+
+.desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(imgs/CAPA\ 1.jpg);
+    background-size: cover;
+}
+
+.desc img {
+    width: 100%;
+}
+
+.texto {
+    width: 35%;
+    height: 60%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 2%;
+}
+
+.linha:nth-child(1) {
+    color:blue; 
+    text-align: start;
+}
+
+.linha:nth-child(2) {
+    font-size: 2.5rem;
+}
+
+.conteudo {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.um {
+    color: white;
+    padding-left: 10%;
+    font-weight: 700;
+    color: black;
+    font-size: 4rem;
+    border-left: 15px solid #3456f0;
+    line-height: 100%;
+}
+
+.texto {
+   width: 45vw;
+   height: 60vh;
+   font-size: 1.2rem;
+   font-weight: 400;
+   color: black;
+   margin-right: 5%;
+}
+
+
+
+.fale-conosco {
+    display: flex;
+    background-color:#3456f0;
+    width: 100vw;
+    height: 17.5vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contrate {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-right: 40%;
+    color: white;
+    line-height: 90%;
+    padding-top: 2%;
+}
+
+.fale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.fale a {
+    width: 280px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 2.2rem;
+    color: white;
+    background-color: #0e173c;
+    font-weight: 700;
+    padding: 0;
+    text-align: center;
+}
+
+.fale a:hover {
+    color: white;
+    background-color: #1d2d6b;
+}
+
+.parte-titulo {
+    width: 20%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features {
+    width: 100vw;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tittles-features {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-features {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-feature {
+    width: 15%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-subs {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-subs img {
+    font-size: 1rem;
+    color: #FFFFFF;
+    width: 85%;
+}
+
+.tittle-card-features {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.desc-card-features {
+    font-size: 1rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.tittle-features {
+    font-size: 3rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.subtittle-features {
+    font-size: 2.7rem;
+    color: #3456f0;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.services {
+    width: 100vw;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tittle-services {
+    width: 17.5%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittle-services p {
+    color: white;
+    padding-left: 10%;
+    font-weight: 700;
+    color: black;
+    font-size: 4rem;
+    border-left: 15px solid #3456f0;
+    line-height: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-left: 100%;
+}
+
+.cards-services {
+    width: 96.5vw;
+    height: 85%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card-services {
+    width: 28%;
+    height: 600px;
+    background-color: #3456f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.card-services img {
+    width: 95%;
+    height: 35%;
+    border-radius: 10px;
+    margin-bottom: 2.5%;
+}
+
+.card-services h3 {
+    width: 95%;
+    text-align: start;
+    font-size: 1.4rem;
+    color: #FFFFFF;
+}
+
+.card-services p {
+    width: 95%;
+    text-align: start;
+    font-size: 1.1rem;
+    color: #c7c7c7;
+    overflow: hidden;
+}
+
+.clientes {
+    width: 100vw;
+    height: 80vh;
+}
+
+.tittle-clientes {
+    width: 22.5%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.tittle-clientes p {
+    color: white;
+    padding-left: 10%;
+    font-weight: 700;
+    color: black;
+    font-size: 4rem;
+    border-left: 15px solid #3456f0;
+    line-height: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-left: 100%;
+}
+
+.area-cliente {
+    width: 90%;
+    height: 50vh;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-empresa {
+    width: 32.5%;
+    height: max-content;
+    background-color: #0e173c;
+    border-radius: 10px;
+    padding: 1.5% 2%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-empresa h3 {
+    color: #FFFFFF;
+    font-size: 1.2rem;
+}
+
+.card-empresa p {
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.area-logos {
+    width: 35%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -20%;
+}
+
+.logo-exemplo {
+    width: 19%;
+    height: 15%;
+    background-color: #3456f0;
+}
+
+.newlester {
+    width: 100vw;
+    height: 20vh;
+    background-color: #3456f0;
+    margin-top: 2.5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.newlester-text {
+    width: 30%;
+}
+
+.newlester-text p {
+    color: #FFFFFF;
+    font-size: 1.7rem;
+    margin: 0;
+}
+
+.newlester-input form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.newlester-input form button {
+    background-color: transparent;
+    width: 100%;
+    margin-left: 12.5%;
+}
+
+.newlester-input form button:hover {
+    color: #FFFFFF;
+}
+
+.newlester-email {
+    background-color: #d6d6d6;
+    border-radius: 10px;
+    padding: 10% 20%;
+}
+
+@media (max-width:991px) {
+    .parte-azul {
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .cabecalho-esquerda {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .info p {
+        margin-bottom: 0;
+        font-size: 0.6rem;
+    }
+
+    .cabecalho-direita {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .cabecalho-direita p {
+        margin: 0;
+        font-size: 0.6rem;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 20vh;
+    }
+
+    .menu{
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .menu a {
+        font-size: .8rem;
+        margin-right: .5%;
+    }
+
+    .desc {
+        width: 100vw;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        height: max-content;
+        padding: 5% 0;
+    }
+
+    .textos {
+        width: 90%;
+        height: max-content;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 2%;
+    }
+
+    .linha {
+        text-align: center;
+    }
+
+    .linha:nth-child(1) {
+        color:blue; 
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .linha:nth-child(2) {
+        font-size: 2.5rem;
+    }
+
+    .imagem {
+        width: 80%;
+        height: 60%;
+        margin-bottom: 5%;
+    }
+
+    .conteudo {
+        display: flex;
+        width: 100vw;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .texto {
+        width: 90vw;
+        height: max-content;
+        text-align: justify;
+        margin: 0 auto;
+     }
+
+     .um {
+        color: white;
+        padding-left: 10%;
+        font-weight: 700;
+        color: black;
+        font-size: 4rem;
+        border-left: 15px solid #3456f0;
+        line-height: 100%;
+        margin: 0 auto;
+    }
+
+    .fale-conosco {
+        background-color:#3456f0;
+        width: 100vw;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 5% 0;
+    }
+
+    .contrate {
+        font-size: 1.6rem;
+        font-weight: 700;
+        margin-right: 27%;
+        color: white;
+        line-height: 90%;
+        padding-top: 2%;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
