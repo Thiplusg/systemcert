@@ -606,7 +606,7 @@ a {
 
     .logo img{
         width: 25vw;
-        height: max-content;
+        height: 20vh;
         padding-bottom: 15%;
         margin-left: 35%;
     }
