@@ -158,12 +158,15 @@ a {
 
 .um {
     color: white;
-    padding-left: 3%;
+    padding-left: 5%;
     font-weight: 700;
     color: black;
     font-size: 4rem;
     border-left: 15px solid #3456f0;
     line-height: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-left: 10%;
 }
 
 .texto {
@@ -272,7 +275,7 @@ a {
 .features {
     width: 100vw;
     height: 70vh;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #0e173c;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -346,7 +349,7 @@ a {
 }
 
 .subtittle-features {
-    font-size: 2.7rem;
+    font-size: 3rem;
     color: #3456f0;
     font-weight: 700;
     margin: 0;
@@ -372,7 +375,7 @@ a {
 
 .tittle-services p {
     color: white;
-    padding-left: 10%;
+    padding-left: 5%;
     font-weight: 700;
     color: black;
     font-size: 4rem;
@@ -602,11 +605,12 @@ a {
     .logo {
         width: 100vw;
         height: 11vh;
+        margin-bottom: 8%;
     }
 
     .logo img{
-        width: 25vw;
-        height: 20vh;
+        width: 28vw;
+        height: 23vh;
         padding-bottom: 15%;
         margin-left: 35%;
     }
@@ -779,13 +783,14 @@ a {
 
     .tittle-features {
         margin: 3% 0;
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .subtittle-features{
         margin-left: 5%;
-        font-size: 28px;
+        font-size: 35px;
         margin-bottom: 5%;
+        text-align: center;
     }
     .cards-features {
         width: 100%;
